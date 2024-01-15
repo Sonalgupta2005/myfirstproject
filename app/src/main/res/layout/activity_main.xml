@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:background="#06DBF6"/>
+    <LinearLayout
+        android:id="@+id/next_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/picture"
+            android:scaleType="fitXY"
+            android:src="@drawable/hawa_mahal"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/char_minar"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:src="@drawable/lotus_temple"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/next2_line"
+        >
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/qutub_minar"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"
+            />
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/taj_mahal"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/humayun_tomb"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/next3_line"
+        >
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bangla_sahaib"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/red_fort"
+            android:contentDescription="@string/picture"
+            android:scaleType="fitXY"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/golden_temple"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/next5_line"
+        >
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gateway_of_india"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/akshardham"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/india_gate"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/next4_line"
+        >
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tower"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rome"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gol_gumbaz"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/picture"
+            android:padding="2dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myfirstprojectlanos</string>
+    <string name="hello">Hello World!</string>
+    <string name="straw">strawberry</string>
+    <string name="picture">picture</string>
+    <string name="gallery"><![CDATA[> Gallery]]></string>
+</resources>
