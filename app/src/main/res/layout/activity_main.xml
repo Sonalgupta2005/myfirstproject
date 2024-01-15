@@ -11,11 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gallery"
+<<<<<<< HEAD
         android:textSize="25sp"
         android:layout_margin="10dp"
         android:textStyle="bold"
         android:fontFamily="sans-serif"
         android:background="#06DBF6"/>
+=======
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:background="#06DBF6"
+        />
+>>>>>>> ec9104b (Initial commit)
     <LinearLayout
         android:id="@+id/next_line"
         android:layout_width="match_parent"
@@ -44,7 +53,12 @@
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
             android:src="@drawable/lotus_temple"
+<<<<<<< HEAD
             android:padding="2dp"/>
+=======
+            android:padding="2dp"
+            />
+>>>>>>> ec9104b (Initial commit)
 
     </LinearLayout>
     <LinearLayout
