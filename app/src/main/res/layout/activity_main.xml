@@ -22,7 +22,7 @@
         android:layout_margin="10dp"
         android:textStyle="bold"
         android:fontFamily="sans-serif"
-        android:background="#06DBF6"
+        android:background="#06DBF4"
         />
 >>>>>>> ec9104b (Initial commit)
     <LinearLayout
