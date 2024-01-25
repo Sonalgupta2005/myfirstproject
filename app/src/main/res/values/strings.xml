@@ -4,4 +4,8 @@
     <string name="straw">strawberry</string>
     <string name="picture">picture</string>
     <string name="gallery"><![CDATA[> Gallery]]></string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="gallery1">Gallery</string>
 </resources>

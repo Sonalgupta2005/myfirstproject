@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient">
+ <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity"
     >
@@ -10,47 +15,76 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gallery"
+        android:text="@string/gallery1"
         android:textSize="25sp"
         android:layout_margin="10dp"
+        android:paddingStart="140dp"
+
         android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:background="#06DBF6"/>
+
+        android:textColor="#ffffff"
+
+        tools:ignore="RtlSymmetry" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:text="@string/today"
+         android:layout_marginStart="2dp"/>
 
     <LinearLayout
         android:id="@+id/next_line"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+
+        >
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:contentDescription="@string/picture"
             android:scaleType="fitXY"
             android:src="@drawable/hawa_mahal"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/char_minar"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
             android:src="@drawable/lotus_temple"
 
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
 
 
     </LinearLayout>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:text="@string/yesterday"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:layout_marginStart="2dp"/>
+
     <LinearLayout
+
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,30 +93,35 @@
         >
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/qutub_minar"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
             android:padding="2dp"
+            android:layout_margin="2dp"
             />
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/taj_mahal"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/humayun_tomb"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
             android:padding="2dp"
+            android:layout_margin="2dp"
             />
     </LinearLayout>
+
+
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -92,28 +131,40 @@
         >
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/bangla_sahaib"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/red_fort"
             android:contentDescription="@string/picture"
             android:scaleType="fitXY"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/golden_temple"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
     </LinearLayout>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:text="@string/monday"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:layout_marginStart="2dp"
+         />
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -123,27 +174,30 @@
         >
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/gateway_of_india"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/akshardham"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/india_gate"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
     </LinearLayout>
     <LinearLayout
 
@@ -154,26 +208,29 @@
         >
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/tower"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp" android:layout_margin="2dp"/>
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/rome"
             android:contentDescription="@string/picture"
             android:padding="2dp"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"/>
 
         <ImageView
-            android:layout_width="137dp"
+            android:layout_width="130dp"
             android:layout_height="150dp"
             android:src="@drawable/gol_gumbaz"
             android:scaleType="fitXY"
             android:contentDescription="@string/picture"
-            android:padding="2dp"/>
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
     </LinearLayout>
 </LinearLayout>
+</ScrollView>
